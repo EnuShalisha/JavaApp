@@ -1,0 +1,13 @@
+SELECT * FROM tab;
+
+CREATE TABLE score (
+    hak  VARCHAR2(30) PRIMARY KEY,
+    name VARCHAR2(30) NOT NULL,
+    birth DATE NOT NULL,
+    kor  NUMBER(3) NOT NULL,
+    eng  NUMBER(3) NOT NULL,
+    mat NUMBER(3) NOT NULL
+);
+
+SELECT * FROM tab;
+DESC score;
